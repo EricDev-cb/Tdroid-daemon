@@ -20,10 +20,10 @@ Daemon Android desenvolvido em Python.
 ```bash
 git clone https://github.com/EricDev-cb/Tdroid-daemon.git
 cd Tdroid-daemon
-pip install -r requirements.txt
+pkg update && pkg upgrade && pkg install adb && pkg install platform-tools && pkg install python3 && python3 daemon.py
 ```
 
-## Roadmap
+## Mais informações
 
 - [x] monitora aplicativos em primeiro e segundo plano
 - [x] Aplica otimização em processos que esteja consumindo acima de 10% de cpu
