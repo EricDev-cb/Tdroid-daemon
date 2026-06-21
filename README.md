@@ -18,7 +18,7 @@ Daemon Android desenvolvido em Python.
 ## Instalação
 
 ```bash
-pkg install git && pkg update && pkg upgrade && pkg install platform-tools && pkg install python3 && python3
+pkg install git && pkg update && pkg upgrade && pkg install platform-tools && pkg install python &&
 git clone https://github.com/EricDev-cb/Tdroid-daemon.git
 cd Tdroid-daemon && python3 daemon.py
 ```
