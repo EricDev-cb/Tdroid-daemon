@@ -18,9 +18,9 @@ Daemon Android desenvolvido em Python.
 ## Instalação
 
 ```bash
+pkg install git && pkg update && pkg upgrade && pkg install platform-tools && pkg install python3 && python3
 git clone https://github.com/EricDev-cb/Tdroid-daemon.git
-cd Tdroid-daemon
-pkg update && pkg upgrade && pkg install adb && pkg install platform-tools && pkg install python3 && python3 daemon.py
+cd Tdroid-daemon && python3 daemon.py
 ```
 Em seguida > opções do desenvolvedor > depuração wifi ou depuração sem fio, clique em "parear com codigo de pareamento" e adicione o codigo que aparecer no termux ! Agora é so verificar os registros dos apps otimizados (:
 
